@@ -1,6 +1,6 @@
 {
   "name": "load_koa_middlewares_with_key",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "configuration default in package.json",
   "main": "index.js",
   "scripts": {
