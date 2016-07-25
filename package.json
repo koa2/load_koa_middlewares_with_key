@@ -1,0 +1,48 @@
+{
+  "name": "load_koa_middlewares_with_key",
+  "version": "1.0.0",
+  "description": "configuration default in package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/load_koa_middlewares_with_key.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/load_koa_middlewares_with_key/issues"
+  },
+  "homepage": "https://github.com/i5ting/load_koa_middlewares_with_key#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "get_closest_package_json": "^1.0.3",
+    "load_koa_middlewares": "^1.0.3"
+  },
+  "devDependencies": {
+    "koa": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "koa-favicon": "^2.0.0"
+  },
+  "config": {
+    "koa-favicon": {
+      "path": "sss",
+      "options": {
+        "maxAge": 1
+      }
+    },
+    "koa-etag": {}
+  },
+  "config3": {
+    "koa-favicon": {
+      "path": "sss",
+      "options": {
+        "maxAge": 1
+      }
+    },
+    "koa-etag": {}
+  }
+}
