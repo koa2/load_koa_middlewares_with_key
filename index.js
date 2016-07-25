@@ -5,6 +5,8 @@ module.exports = function(key){
   var _key = key || 'config'
   const config = require('get_closest_package_json')[_key]
   
+  console.log(config)
+  
   debug(key)
   debug(config)
   
