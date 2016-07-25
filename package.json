@@ -19,7 +19,7 @@
   "homepage": "https://github.com/i5ting/load_koa_middlewares_with_key#readme",
   "dependencies": {
     "debug": "^2.2.0",
-    "get_closest_package_json": "^1.0.5",
+    "get_closest_package_json": "^1.0.8",
     "load_koa_middlewares": "^1.0.3"
   },
   "devDependencies": {
