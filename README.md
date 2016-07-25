@@ -36,3 +36,16 @@ config in package.json
     "koa-etag": {}
   },
 ```
+
+## Advance 
+
+使用jwf处理package.json，所以可以使用外部js作为配置项
+
+```
+{
+  "name": "jwf",
+  "version": "1.0.0",
+  "description": "json with file require",
+  "b":  "./b.js"
+}
+```
